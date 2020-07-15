@@ -102,14 +102,6 @@ def Juego():
         if obs.golpeado(jugador) == True:
                     enJuego = False
                     
-                    
-        
-
-        
-        """if len(listaObstaculos)>0:
-            for obstaculo in listaObstaculos:
-                obstaculo.movimiento()
-                obstaculo.dibujar(ventana) """
         if enJuego == True:
             if obs.rect.top < 800:
               obs.movimiento()
